@@ -3,3 +3,5 @@ bin
 obj
 *.user
 packages
+/SonyDemo/App_Data/SonyDb_log.ldf
+/SonyDemo/App_Data/SonyDb.mdf
