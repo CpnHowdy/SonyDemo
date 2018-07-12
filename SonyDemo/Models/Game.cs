@@ -3,7 +3,7 @@
 namespace SonyDemo.Models
 {
     /// <summary>
-    ///     Model for users
+    ///     Model for games
     /// </summary>
     public class Game
     {
