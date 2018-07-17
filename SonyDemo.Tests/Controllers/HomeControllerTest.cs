@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using SonyDemo;
-using SonyDemo.Controllers;
+using MovieDemo;
+using MovieDemo.Controllers;
 
-namespace SonyDemo.Tests.Controllers
+namespace MovieDemo.Tests.Controllers
 {
     [TestClass]
     public class HomeControllerTest

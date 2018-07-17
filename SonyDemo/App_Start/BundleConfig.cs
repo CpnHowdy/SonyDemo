@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace SonyDemo
+namespace MovieDemo
 {
     public class BundleConfig
     {

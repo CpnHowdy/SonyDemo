@@ -7,7 +7,7 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace SonyDemo.Models
+namespace MovieDemo.Models
 {
     /// <summary>
     ///     Identity users in the application

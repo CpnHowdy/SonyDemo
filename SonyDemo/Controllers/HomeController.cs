@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace SonyDemo.Controllers
+namespace MovieDemo.Controllers
 {
     public class HomeController : Controller
     {

@@ -1,14 +1,13 @@
 ﻿using System;
 
-namespace SonyDemo.Models
+namespace MovieDemo.Models
 {
     /// <summary>
-    ///     Model for games
+    ///     Model for movies
     /// </summary>
-    public class Game
+    public class Movie
     {
-        public int GameId { get; set; }
-        public string Name { get; set; }
-        public DateTime? ReleaseDate { get; set; } 
+        public int MovieId { get; set; }
+        public string ImdbId { get; set; }
     }
 }

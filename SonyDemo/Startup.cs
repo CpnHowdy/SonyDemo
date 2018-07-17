@@ -4,11 +4,11 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin;
 using Owin;
-using SonyDemo.Models;
+using MovieDemo.Models;
 
-[assembly: OwinStartup(typeof(SonyDemo.Startup))]
+[assembly: OwinStartup(typeof(MovieDemo.Startup))]
 
-namespace SonyDemo
+namespace MovieDemo
 {
     public class Startup
     {
@@ -19,7 +19,7 @@ namespace SonyDemo
 
         private void createRolesandUsers()
         {
-            var context = new SonyDbContext();
+            var context = new MovieDbContext();
 
             var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(context));
             var UserManager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(context));

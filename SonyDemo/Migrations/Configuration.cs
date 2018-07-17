@@ -1,24 +1,24 @@
-namespace SonyDemo.Migrations
+namespace MovieDemo.Migrations
 {
-    using SonyDemo.Models;
+    using MovieDemo.Models;
     using System.Data.Entity.Migrations;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<SonyDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<MovieDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
-            ContextKey = "SonyDemo.Models.SonyDbContext";
+            ContextKey = "MovieDemo.Models.MovieDbContext";
         }
 
         /// <summary>
         ///     Adds/updates data in the db upon running migrations.
         /// </summary>
         /// <param name="context"></param>
-        protected override void Seed(SonyDbContext context)
+        protected override void Seed(MovieDbContext context)
         {
             // Games
-            context.Games.AddOrUpdate(new Game { Name = "The Witcher 3" });
+            context.Movies.AddOrUpdate(new Movie { ImdbId = "tt3896198" });
         }
     }
 }
